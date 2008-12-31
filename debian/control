@@ -1,0 +1,23 @@
+Source: macchanger
+Section: net
+Priority: optional
+Maintainer: David Paleino <d.paleino@gmail.com>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 6), quilt
+Standards-Version: 3.8.0
+Homepage: http://www.alobbs.com/macchanger
+Vcs-Svn: svn://svn.debian.org/svn/collab-maint/deb-maint/macchanger/trunk
+Vcs-Browser: http://svn.debian.org/wsvn/collab-maint/deb-maint/macchanger/trunk
+
+Package: macchanger
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: utility for manipulating the MAC address of network interfaces
+ Features:
+ .
+   * set specific MAC address of a network interface
+   * set the MAC randomly
+   * set a MAC of another vendor
+   * set another MAC of the same vendor
+   * set a MAC of the same kind (eg: wireless card)
+   * display a vendor MAC list (today, 6200 items) to choose from
