@@ -1,3 +1,9 @@
+macchanger (1.5.0-5) UNRELEASED; urgency=low
+
+  * debian/rules: add "build-stamp" to install-stamp dependencies
+
+ -- David Paleino <d.paleino@gmail.com>  Mon, 21 Sep 2009 00:45:59 +0200
+
 macchanger (1.5.0-4) unstable; urgency=low
 
   * Maintenance upload

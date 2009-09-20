@@ -11,7 +11,7 @@ build-stamp:
 	touch $@
 
 install: install-stamp
-install-stamp:
+install-stamp: build-stamp
 	dh install
 	find $(CURDIR) -name "dir.gz" -delete
 	touch $@
