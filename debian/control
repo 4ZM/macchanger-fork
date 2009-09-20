@@ -11,7 +11,8 @@ Vcs-Browser: http://svn.debian.org/wsvn/collab-maint/deb-maint/macchanger/trunk
 
 Package: macchanger
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends},
+ ${misc:Depends}
 Description: utility for manipulating the MAC address of network interfaces
  Features:
  .
