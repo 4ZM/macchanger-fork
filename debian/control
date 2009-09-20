@@ -1,6 +1,6 @@
 Source: macchanger
 Section: net
-Priority: optional
+Priority: extra
 Maintainer: David Paleino <d.paleino@gmail.com>
 DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 7), quilt (>= 0.46-7~)

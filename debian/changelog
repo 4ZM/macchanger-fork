@@ -1,8 +1,10 @@
-macchanger (1.5.0-5) UNRELEASED; urgency=low
+macchanger (1.5.0-5) unstable; urgency=low
 
+  * The "fast, fast, you forgot it!" release
   * debian/rules: add "build-stamp" to install-stamp dependencies
+  * debian/control: change priority to extra, match FTP-Master override
 
- -- David Paleino <d.paleino@gmail.com>  Mon, 21 Sep 2009 00:45:59 +0200
+ -- David Paleino <d.paleino@gmail.com>  Mon, 21 Sep 2009 00:59:02 +0200
 
 macchanger (1.5.0-4) unstable; urgency=low
 
