@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: David Paleino <d.paleino@gmail.com>
 DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 7), quilt (>= 0.46-7~)
-Standards-Version: 3.8.0
+Standards-Version: 3.8.3
 Homepage: http://www.alobbs.com/macchanger
 Vcs-Svn: svn://svn.debian.org/svn/collab-maint/deb-maint/macchanger/trunk
 Vcs-Browser: http://svn.debian.org/wsvn/collab-maint/deb-maint/macchanger/trunk
@@ -12,7 +12,8 @@ Vcs-Browser: http://svn.debian.org/wsvn/collab-maint/deb-maint/macchanger/trunk
 Package: macchanger
 Architecture: any
 Depends: ${shlibs:Depends},
- ${misc:Depends}
+ ${misc:Depends},
+ dpkg (>= 1.15.4) | install-info
 Description: utility for manipulating the MAC address of network interfaces
  Features:
  .
