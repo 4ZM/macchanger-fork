@@ -5,8 +5,9 @@ macchanger (1.5.0-4) UNRELEASED; urgency=low
   * debian/examples added
   * debian/info added
   * debian/rules rewritten, using dh7-style
+  * debian/compat bumped to 7
 
- -- David Paleino <d.paleino@gmail.com>  Sun, 20 Sep 2009 23:38:22 +0200
+ -- David Paleino <d.paleino@gmail.com>  Sun, 20 Sep 2009 23:40:55 +0200
 
 macchanger (1.5.0-3) unstable; urgency=low
 
