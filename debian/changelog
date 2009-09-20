@@ -10,8 +10,9 @@ macchanger (1.5.0-4) UNRELEASED; urgency=low
     - Build-Depends, debhelper bumped to >= 7, quilt versioned
       to >= 0.46-7~
     - Depends, ${misc:Depends} added
+  * debian/README.source added
 
- -- David Paleino <d.paleino@gmail.com>  Sun, 20 Sep 2009 23:42:12 +0200
+ -- David Paleino <d.paleino@gmail.com>  Mon, 21 Sep 2009 00:24:19 +0200
 
 macchanger (1.5.0-3) unstable; urgency=low
 
