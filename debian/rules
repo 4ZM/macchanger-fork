@@ -13,6 +13,7 @@ build-stamp:
 install: install-stamp
 install-stamp:
 	dh install
+	find $(CURDIR) -name "dir.gz" -delete
 	touch $@
 
 clean:
