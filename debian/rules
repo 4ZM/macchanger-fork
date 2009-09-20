@@ -3,7 +3,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-LDFLAGS="-Wl,-z,defs,--as-needed"
+export LDFLAGS=-Wl,-z,defs,--as-needed
 
 build: build-stamp
 build-stamp:
