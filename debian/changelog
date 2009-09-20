@@ -13,9 +13,10 @@ macchanger (1.5.0-4) UNRELEASED; urgency=low
     - Standards-Version bumped to 3.8.3:
       + handle install-info changes properly, add Depends on
         dpkg (>= 1.15.4) | install-info to permit smooth upgrades.
+    - Vcs-* fields updated, packaging moved to Git
   * debian/README.source added
 
- -- David Paleino <d.paleino@gmail.com>  Mon, 21 Sep 2009 00:25:13 +0200
+ -- David Paleino <d.paleino@gmail.com>  Mon, 21 Sep 2009 00:34:11 +0200
 
 macchanger (1.5.0-3) unstable; urgency=low
 
