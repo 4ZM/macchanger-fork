@@ -24,7 +24,7 @@ Forwarded: not yet
 -	srandom(time(NULL));
 +	struct timeval tv;
 +	if (gettimeofday(&tv, NULL) == 0) {
-+		srandom(tv.tv_sec * tv.tvusec * getpid());
++		srandom(tv.tv_sec * tv.tv_usec * getpid());
 +	} else {
 +		srandom(time(NULL));
 +	}
