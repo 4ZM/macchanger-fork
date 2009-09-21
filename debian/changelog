@@ -1,4 +1,4 @@
-macchanger (1.5.0-6) UNRELEASED; urgency=low
+macchanger (1.5.0-6) unstable; urgency=low
 
   * The "if I only received those mails five minutes earlier" release
   * debian/patches/:
@@ -6,7 +6,7 @@ macchanger (1.5.0-6) UNRELEASED; urgency=low
       the hint (Closes: #547595)
     - 04-fix_exit_code.patch added (Closes: #547596)
 
- -- David Paleino <d.paleino@gmail.com>  Mon, 21 Sep 2009 11:29:31 +0200
+ -- David Paleino <d.paleino@gmail.com>  Mon, 21 Sep 2009 11:54:29 +0200
 
 macchanger (1.5.0-5) unstable; urgency=low
 
