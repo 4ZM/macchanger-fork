@@ -1,0 +1,33 @@
+---
+ src/main.c |    8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+--- macchanger.orig/src/main.c
++++ macchanger/src/main.c
+@@ -115,6 +115,7 @@ main (int argc, char *argv[])
+ 	char       *device_name;
+ 
+ 	int val;
++	int ret;
+ 
+ 	
+ 	/* Read the parameters */
+@@ -226,6 +227,11 @@ main (int argc, char *argv[])
+ 		if (mc_mac_equal (mac, mac_faked)) {
+ 			printf ("It's the same MAC!!\n");
+ 		}
++
++		ret = 0;
++	}
++	else {
++		ret = 1;
+ 	}
+ 	
+ 	/* Memory free */
+@@ -234,5 +240,5 @@ main (int argc, char *argv[])
+ 	mc_net_info_free (net);
+ 	mc_maclist_free();
+ 	
+-	return 0;
++	return ret;
+ }

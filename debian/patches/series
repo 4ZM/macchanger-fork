@@ -1,3 +1,4 @@
 01-fix_manpage.patch
 02-fix_usage_message.patch
 03-fix_random_seed.patch
+04-fix_exit_code.patch
