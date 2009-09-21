@@ -1,7 +1,7 @@
 Description: improve random seed
 Origin: vendor, http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=547595
 Author: David Paleino <d.paleino@gmail.com>
-Forwarded: not yet
+Forwarded: Forwarded: Alvaro Lopez Ortega <alvaro@alobbs.com> <20090921114216.1978b3d6@pingu>
 ---
  src/main.c |    9 ++++++++-
  1 file changed, 8 insertions(+), 1 deletion(-)
