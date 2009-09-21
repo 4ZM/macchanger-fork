@@ -1,3 +1,12 @@
+macchanger (1.5.0-6) UNRELEASED; urgency=low
+
+  * The "if I only received those mails five minutes earlier" release
+  * debian/patches/:
+    - 03-fix_random_seed.patch added, thanks to Carlo Contavalli for
+      the hint (Closes: #547595)
+
+ -- David Paleino <d.paleino@gmail.com>  Mon, 21 Sep 2009 08:54:00 +0200
+
 macchanger (1.5.0-5) unstable; urgency=low
 
   * The "fast, fast, you forgot it!" release
