@@ -1,7 +1,7 @@
 Source: macchanger
 Section: net
 Priority: extra
-Maintainer: David Paleino <d.paleino@gmail.com>
+Maintainer: David Paleino <dapal@debian.org>
 DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 7), quilt (>= 0.46-7~)
 Standards-Version: 3.8.3
