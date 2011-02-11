@@ -3,8 +3,9 @@ macchanger (1.5.0-7) UNRELEASED; urgency=low
   * debian/control:
     - updated my email address
     - DMUA removed
+    - bump Standards-Version to 3.9.1, no changes needed
 
- -- David Paleino <dapal@debian.org>  Sun, 08 Nov 2009 23:30:06 +0100
+ -- David Paleino <dapal@debian.org>  Fri, 11 Feb 2011 10:36:13 +0100
 
 macchanger (1.5.0-6) unstable; urgency=low
 
