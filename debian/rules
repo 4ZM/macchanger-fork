@@ -5,25 +5,9 @@
 
 export LDFLAGS=-Wl,-z,defs,--as-needed
 
-build: build-stamp
-build-stamp:
-	dh --with quilt build
-	touch $@
-
-install: install-stamp
-install-stamp: build-stamp
-	dh install
-	find $(CURDIR) -name "dir.gz" -delete
-	touch $@
-
-clean:
-	dh --with quilt $@
-
-binary-indep:
-
-binary-arch: build install
+%:
 	dh $@
 
-binary: binary-arch binary-indep
-
-.PHONY: build clean binary-indep binary-arch binary install 
+override_dh_auto_install:
+	dh_auto_install
+	find $(CURDIR) -name "dir.gz" -delete
