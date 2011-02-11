@@ -7,9 +7,10 @@ macchanger (1.5.0-7) UNRELEASED; urgency=low
     - drop Build-Depends on quilt
   * debian/README.source removed
   * debian/rules rewritten with minimal-dh7-style
+  * debian/copyright updated to DEP-5
   * Use "3.0 (quilt)" format
 
- -- David Paleino <dapal@debian.org>  Fri, 11 Feb 2011 10:40:00 +0100
+ -- David Paleino <dapal@debian.org>  Fri, 11 Feb 2011 10:42:17 +0100
 
 macchanger (1.5.0-6) unstable; urgency=low
 
