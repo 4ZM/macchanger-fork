@@ -11,8 +11,9 @@ macchanger (1.5.0-7) UNRELEASED; urgency=low
   * debian/copyright updated to DEP-5
   * debian/patches/* refreshed with DEP-3
   * Use "3.0 (quilt)" format
+  * Fix spelling error in source code (05-fix_spelling_error.patch)
 
- -- David Paleino <dapal@debian.org>  Fri, 11 Feb 2011 10:48:31 +0100
+ -- David Paleino <dapal@debian.org>  Fri, 11 Feb 2011 10:52:27 +0100
 
 macchanger (1.5.0-6) unstable; urgency=low
 

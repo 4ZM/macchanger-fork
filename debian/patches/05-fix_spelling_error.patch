@@ -1,0 +1,19 @@
+From: David Paleino <dapal@debian.org>
+Subject: fix spelling error
+Forwarded: no
+
+---
+ src/mac.c |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- macchanger.orig/src/mac.c
++++ macchanger/src/mac.c
+@@ -117,7 +117,7 @@ mc_mac_read_string (mac_t *mac, char *st
+ 
+ 	/* Check the format */
+ 	if (strlen(string) != 17) {
+-		fprintf (stderr, "ERROR: Incorrect format: MAC lenght is 17. %s(%d)\n", string, strlen(string));
++		fprintf (stderr, "ERROR: Incorrect format: MAC length is 17. %s(%d)\n", string, strlen(string));
+ 		return -1;
+ 	}
+ 	

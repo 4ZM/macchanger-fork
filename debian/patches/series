@@ -2,3 +2,4 @@
 02-fix_usage_message.patch
 03-fix_random_seed.patch
 04-fix_exit_code.patch
+05-fix_spelling_error.patch
