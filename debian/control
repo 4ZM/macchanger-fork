@@ -2,7 +2,7 @@ Source: macchanger
 Section: net
 Priority: extra
 Maintainer: David Paleino <dapal@debian.org>
-Build-Depends: debhelper (>= 7), quilt (>= 0.46-7~)
+Build-Depends: debhelper (>= 7)
 Standards-Version: 3.9.1
 Homepage: http://www.alobbs.com/macchanger
 Vcs-Git: git://git.debian.org/git/collab-maint/macchanger.git
