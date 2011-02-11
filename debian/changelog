@@ -5,13 +5,14 @@ macchanger (1.5.0-7) UNRELEASED; urgency=low
     - DMUA removed
     - bump Standards-Version to 3.9.1, no changes needed
     - drop Build-Depends on quilt
+    - bump debhelper requirement to >= 7.0.50~
   * debian/README.source removed
   * debian/rules rewritten with minimal-dh7-style
   * debian/copyright updated to DEP-5
   * debian/patches/* refreshed with DEP-3
   * Use "3.0 (quilt)" format
 
- -- David Paleino <dapal@debian.org>  Fri, 11 Feb 2011 10:44:33 +0100
+ -- David Paleino <dapal@debian.org>  Fri, 11 Feb 2011 10:48:31 +0100
 
 macchanger (1.5.0-6) unstable; urgency=low
 
