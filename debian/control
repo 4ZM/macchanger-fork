@@ -10,9 +10,9 @@ Vcs-Browser: http://git.debian.org/?p=collab-maint/macchanger.git
 
 Package: macchanger
 Architecture: any
-Depends: ${shlibs:Depends},
- ${misc:Depends},
- dpkg (>= 1.15.4) | install-info
+Depends: ${shlibs:Depends}
+ , ${misc:Depends}
+ , dpkg (>= 1.15.4) | install-info
 Description: utility for manipulating the MAC address of network interfaces
  Features:
  .
