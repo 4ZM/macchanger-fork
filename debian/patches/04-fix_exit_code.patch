@@ -1,8 +1,9 @@
-Description: give the correct exit code on error
+From: David Paleino <dapal@debian.org>
+Subject: give the correct exit code on error
 Origin: vendor
 Bug-Debian: http://bugs.debian.org/547596
-Author: David Paleino <d.paleino@gmail.com>
 Forwarded: Alvaro Lopez Ortega <alvaro@alobbs.com> <20090921114216.1978b3d6@pingu>
+
 ---
  src/main.c |    8 +++++++-
  1 file changed, 7 insertions(+), 1 deletion(-)
