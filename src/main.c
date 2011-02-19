@@ -205,18 +205,20 @@ main (int argc, char *argv[])
 		mc_mac_next (mac_faked);
 	}
 
-	/* Set the new MAC */
-	if (mc_net_info_set_mac (net, mac_faked) >= 0) {
-		/* Re-read the MAC */
-		mc_mac_free (mac_faked);
-		mac_faked = mc_net_info_get_mac(net);
+	/* Is the same MAC? */
+	if (mc_mac_equal (mac, mac_faked)) {
+		printf ("MAC was not changed since requested MAC was same as current!\n");
+		print_mac ("Requested MAC: ", mac_faked);
+	}
+	else {
+		/* Set the new MAC */
+		if (mc_net_info_set_mac (net, mac_faked) >= 0) {
+			/* Re-read the MAC */
+			mc_mac_free (mac_faked);
+			mac_faked = mc_net_info_get_mac(net);
 
-		/* Print it */
-		print_mac ("Faked MAC:   ", mac_faked);
-		
-		/* Is the same MAC? */
-		if (mc_mac_equal (mac, mac_faked)) {
-			printf ("It's the same MAC!!\n");
+			/* Print it */
+			print_mac ("Faked MAC:   ", mac_faked);
 		}
 	}
 	
