@@ -189,7 +189,8 @@ main (int argc, char *argv[])
 	mac_permanent = mc_net_info_get_permanent_mac(net);
 
 	/* Print the current MAC info */
-	print_mac ("Current MAC: ", mac);
+	print_mac ("Permanent MAC: ", mac_permanent);
+	print_mac ("Current   MAC: ", mac);
 	
 	/* Change the MAC */
 	mac_faked = mc_mac_dup (mac);
@@ -222,7 +223,7 @@ main (int argc, char *argv[])
 		mac_faked = mc_net_info_get_mac(net);
 
 		/* Print it */
-		print_mac ("Faked MAC:   ", mac_faked);
+		print_mac ("New       MAC: ", mac_faked);
 		
 		/* Is the same MAC? */
 		if (mc_mac_equal (mac, mac_faked)) {
