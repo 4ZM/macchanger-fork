@@ -41,6 +41,13 @@ mc_mac_dup (const mac_t *mac)
 	return new;
 }
 
+void
+mc_mac_copy (const mac_t *src_mac, mac_t *dst_mac)
+{
+	int i = 0;
+	for (i = 0; i < 6; ++i) 
+		dst_mac->byte[i] = src_mac->byte[i];
+}
 
 void
 mc_mac_free (mac_t *mac)
@@ -67,20 +74,28 @@ mc_mac_random (mac_t *mac, unsigned char last_n_bytes)
 	 * x1:, x3:, x5:, x7:, x9:, xB:, xD: and xF:
 	 */
 
-	switch (last_n_bytes) {
-	case 6:
-		mac->byte[0] = (random()%255) & 0xFE;
-	case 5:
-		mac->byte[1] = random()%255;
-	case 4:
-		mac->byte[2] = random()%255;
-	case 3:
-		mac->byte[3] = random()%255;
-	case 2:
-		mac->byte[4] = random()%255;
-	case 1:
-		mac->byte[5] = random()%255;
-	}
+	mac_t newmac;
+	mc_mac_copy(mac, &newmac);
+
+	/* Make sure we really get a new MAC */
+	do {
+		switch (last_n_bytes) {
+		case 6:
+			newmac.byte[0] = (random()%255) & 0xFE; 
+		case 5:
+			newmac.byte[1] = random()%255;
+		case 4:
+			newmac.byte[2] = random()%255;
+		case 3:
+			newmac.byte[3] = random()%255;
+		case 2:
+			newmac.byte[4] = random()%255;
+		case 1:
+			newmac.byte[5] = random()%255;
+		}
+	} while (mc_mac_equal (&newmac, mac));
+
+	mc_mac_copy(&newmac, mac);
 }
 
 
