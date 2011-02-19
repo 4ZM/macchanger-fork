@@ -219,7 +219,6 @@ main (int argc, char *argv[])
 	/* Is the same MAC? */
 	if (mc_mac_equal (mac, mac_faked)) {
 		printf ("MAC was not changed since requested MAC was same as current!\n");
-		print_mac ("Requested MAC: ", mac_faked);
 	}
 	else {
 		/* Set the new MAC */
