@@ -8683,7 +8683,7 @@
 00 22 0D Cisco Systems
 00 22 0E Indigo Security Co., Ltd.
 00 22 0F Moca (multimedia Over Coax Alliance)
-00 22 10 Motorola Chs
+00 22 10 Motorola Mobility, Inc.
 00 22 11 Rohati Systems
 00 22 12 Cai Networks, Inc.
 00 22 13 Pci Corporation
@@ -8934,7 +8934,7 @@
 00 23 08 Arcadyan Technology Corporation
 00 23 09 Janam Technologies Llc
 00 23 0A Arburg Gmbh & Co Kg
-00 23 0B Motorola Chs
+00 23 0B Motorola Mobility, Inc.
 00 23 0C Clover Electronics Co.,ltd.
 00 23 0D Nortel Networks
 00 23 0E Gorba Ag
@@ -9039,8 +9039,8 @@
 00 23 71 Soam Systel
 00 23 72 More Star Industrial Group Limited
 00 23 73 Gridiron Systems, Inc.
-00 23 74 Motorola Chs
-00 23 75 Motorola Chs
+00 23 74 Motorola Mobility, Inc.
+00 23 75 Motorola Mobility, Inc.
 00 23 76 Htc Corporation
 00 23 77 Isotek Electronics Ltd
 00 23 78 Gn Netcom A/s
@@ -9072,7 +9072,7 @@
 00 23 92 Proteus Industries Inc.
 00 23 93 Ajinextek
 00 23 94 Samjeon
-00 23 95 Motorola Chs
+00 23 95 Motorola Mobility, Inc.
 00 23 96 Andes Technology Corporation
 00 23 97 Westell Technologies Inc.
 00 23 98 Sky Control
@@ -9085,7 +9085,7 @@
 00 23 9F Institut Für Prüftechnik
 00 23 A0 Hana Cns Co., Ltd.
 00 23 A1 Trend Electronics Ltd
-00 23 A2 Motorola Chs
+00 23 A2 Motorola Mobility, Inc.
 00 23 A3 Motorola Mobility, Inc.
 00 23 A4 New Concepts Development Corp.
 00 23 A5 Sagetv, Llc
@@ -11002,6 +11002,7 @@
 00 6D FB Vutrix (uk) Ltd
 00 70 B0 M/a-com Inc. Companies
 00 70 B3 Data Recall Ltd.
+00 72 98 Kaon Media Co., Ltd.
 00 80 00 Multitech Systems, Inc.
 00 80 01 Periphonics Corporation
 00 80 02 Satelcom (uk) Ltd
@@ -12877,6 +12878,7 @@
 10 0D 32 Embedian, Inc.
 10 0E 2B Nec Casio Mobile Communications
 10 10 B6 Mccain Inc
+10 12 12 Vivo International Corporation Pty Ltd
 10 18 9E Elmo Motion Control
 10 1D C0 Samsung Electronics Co.,ltd
 10 2D 96 Looxcie Inc.
@@ -12922,6 +12924,7 @@
 14 C2 1D Sabtech Industries
 14 D6 4D D-link International
 14 D7 6E Conch Electronic Co.,ltd
+14 EB 33 Bsmediasoft Co., Ltd.
 14 EE 9D Airnav Systems Llc
 14 F0 C5 Xtremio Ltd.
 14 FE AF Sagittar Limited
@@ -12964,6 +12967,7 @@
 1C 19 DE Eyevis Gmbh
 1C 1D 67 Huawei Device Co., Ltd
 1C 33 4D Its Telecom
+1C 35 F1 New Lift Neue Elektronische Wege Steuerungsbau Gmbh
 1C 3A 4F Accuspec Electronics, Llc
 1C 3D E7 Sigma Koki Co.,ltd.
 1C 4B D6 Azurewave
@@ -13490,6 +13494,7 @@
 64 C6 AF Axerra Networks Ltd
 64 D0 2D Draytek France
 64 D1 A3 Sitecom Europe Bv
+64 D2 41 Keith & Koep Gmbh
 64 D4 DA Intel Corporate
 64 DB 18 Openpattern
 64 DC 01 Static Systems Group Plc
@@ -13537,6 +13542,7 @@
 6C 2E 85 Sagemcom
 6C 32 DE Indieon Technologies Pvt. Ltd.
 6C 33 A9 Magicjack Lp
+6C 39 1D Beijing Zhonghuahun Network Information Center
 6C 3E 9C Ke Knestel Elektronik Gmbh
 6C 50 4D Cisco Systems
 6C 5C DE Sunreports, Inc.
@@ -13639,6 +13645,7 @@
 78 2B CB Dell Inc
 78 2E EF Nokia Corporation
 78 30 E1 Ultraclenz, Llc
+78 3F 15 Easysync Ltd.
 78 44 76 Zioncom Technology Co.,ltd
 78 47 1D Samsung Electronics Co.,ltd
 78 51 0C Liveu Ltd.
@@ -13717,6 +13724,7 @@
 80 17 7D Nortel Networks
 80 1F 02 Edimax Technology Co. Ltd.
 80 22 75 Beijing Beny Wave Technology Co Ltd
+80 34 57 Ot Systems Limited
 80 38 FD Leapfrog Enterprises, Inc.
 80 39 E5 Patlite Corporation
 80 3B 9A Ghe-ces Electronic Ag
@@ -13732,6 +13740,7 @@
 80 9B 20 Intel Corporate
 80 A1 D7 Shanghai Dareglobal Technologies Co.,ltd 
 80 B2 89 Forworld Electronics Ltd.
+80 B3 2A Alstom Grid
 80 BA AC Teleadapt Ltd
 80 C6 3F Remec Broadband Wireless , Llc
 80 C6 AB Technicolor Usa Inc.
@@ -13779,6 +13788,7 @@
 88 A5 BD Qpcom Inc.
 88 AC C1 Generiton Co., Ltd. 
 88 AE 1D Compal Information(kunshan)co.,ltd
+88 B1 68 Delta Control Gmbh
 88 B6 27 Gembird Europe Bv
 88 BA 7F Qfiednet Co., Ltd.
 88 C6 63 Apple Inc
@@ -13886,6 +13896,7 @@
 98 4B E1 Hewlett Packard
 98 4E 97 Starlight Marketing (h. K.) Ltd.
 98 59 45 Texas Instruments
+98 60 22 Emw Co., Ltd.
 98 6D C8 Toshiba Mitsubishi-electric Industrial Systems Corporation
 98 73 C4 Sage Electronic Engineering Llc
 98 89 ED Anadem Information Inc.
@@ -14042,6 +14053,7 @@ AC 80 D6 Hexatronic Ab
 AC 81 12 Gemtek Technology Co., Ltd.
 AC 83 17 Shenzhen Furtunetel Communication Co., Ltd
 AC 83 F0 Magenta Video Networks
+AC 86 74 Open Mesh, Inc.
 AC 86 7E Create New Technology (hk) Limited Company
 AC 93 2F Nokia Corporation
 AC 9A 96 Lantiq Deutschland Gmbh
@@ -14112,6 +14124,7 @@ B4 ED 54 Wohler Technologies
 B4 EE D4 Texas Instruments
 B4 F3 23 Petatel Inc.
 B8 0B 9D Ropex Industrie-elektronik Gmbh
+B8 3D 4E Shenzhen Cultraview Digital Technology Co.,ltd Shanghai Branch
 B8 41 5F Asp Ag
 B8 61 6F Accton Wireless Broadband(awb), Corp.
 B8 64 91 Ck Telecom Ltd
@@ -14160,6 +14173,7 @@ BC 71 C1 Xtrillion, Inc.
 BC 77 37 Intel Corporate
 BC 7D D1 Radio Data Comms
 BC 83 A7 Shenzhen Chuangwei-rgb Electronics Co.,lt
+BC 99 BC Fonsee Technology Inc.
 BC 9D A5 Dascom Europe Gmbh
 BC A9 D6 Cyber-rain, Inc.
 BC AE C5 Asustek Computer Inc.
@@ -14603,6 +14617,7 @@ F4 6D 04 Asustek Computer Inc.
 F4 76 26 Viltechmeda Uab 
 F4 9F 54 Samsung Electronics
 F4 AC C1 Cisco Systems
+F4 B5 49 Yeastar Technology Co., Ltd.
 F4 C7 14 Huawei Device Co., Ltd
 F4 C7 95 Wey Elektronik Ag
 F4 CE 46 Hewlett Packard
