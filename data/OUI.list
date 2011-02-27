@@ -1926,7 +1926,7 @@
 00 07 86 Wireless Networks Inc.
 00 07 87 Idea System Co., Ltd.
 00 07 88 Clipcomm, Inc.
-00 07 89 Eastel Systems Corporation
+00 07 89 Dongwon Systems
 00 07 8A Mentor Data System Inc.
 00 07 8B Wegener Communications, Inc.
 00 07 8C Elektronikspecialisten I Borlange Ab
@@ -3578,7 +3578,7 @@
 00 0E 1B Iav Gmbh
 00 0E 1C Hach Company
 00 0E 1D Arion Technology Inc.
-00 0E 1E Netxen, Inc.
+00 0E 1E Qlogic Corporation
 00 0E 1F Tcl Networks Equipment Co., Ltd.
 00 0E 20 Access Systems Americas, Inc.
 00 0E 21 Mtu Friedrichshafen Gmbh
@@ -7148,7 +7148,7 @@
 00 1C 0E Cisco Systems
 00 1C 0F Cisco Systems
 00 1C 10 Cisco-linksys, Llc
-00 1C 11 Motorola Chs
+00 1C 11 Motorola Mobility, Inc.
 00 1C 12 Motorola Mobile Devices
 00 1C 13 Optsys Technology Co., Ltd.
 00 1C 14 Vmware, Inc
@@ -7382,7 +7382,7 @@
 00 1C F8 Parade Technologies, Ltd.
 00 1C F9 Cisco Systems
 00 1C FA Alarm.com
-00 1C FB Motorola Chs
+00 1C FB Motorola Mobility, Inc.
 00 1C FC Suminet Communication Technologies (shanghai) Co., Ltd.
 00 1C FD Universal Electronics
 00 1C FE Quartics Inc
@@ -7713,7 +7713,7 @@
 00 1E 43 Aisin Aw Co.,ltd.
 00 1E 44 Santec
 00 1E 45 Sony Ericsson Mobile Communications Ab
-00 1E 46 Motorola Chs
+00 1E 46 Motorola Mobility, Inc.
 00 1E 47 Pt. Hariff Daya Tunggal Engineering
 00 1E 48 Wi-links
 00 1E 49 Cisco Systems
@@ -7733,7 +7733,7 @@
 00 1E 57 Alcoma, Spol. S R.o.
 00 1E 58 D-link Corporation
 00 1E 59 Silicon Turnkey Express, Llc
-00 1E 5A Motorola Chs
+00 1E 5A Motorola Mobility, Inc.
 00 1E 5B Unitron Company, Inc.
 00 1E 5C Rb Generalekonomik
 00 1E 5D Holosys D.o.o.
@@ -8095,7 +8095,7 @@
 00 1F C1 Hanlong Technology Co.,ltd
 00 1F C2 Jow Tong Technology Co Ltd
 00 1F C3 Smartsynch, Inc
-00 1F C4 Motorola Chs
+00 1F C4 Motorola Mobility, Inc. 
 00 1F C5 Nintendo Co., Ltd.
 00 1F C6 Asustek Computer Inc.
 00 1F C7 Casio Hitachi Mobile Comunications Co., Ltd.
@@ -8402,7 +8402,7 @@
 00 20 F4 Spectrix Corporation
 00 20 F5 Pandatel Ag
 00 20 F6 Net Tek  And Karlnet, Inc.
-00 20 F7 Cyberdata
+00 20 F7 Cyberdata Corporation
 00 20 F8 Carrera Computers, Inc.
 00 20 F9 Paralink Networks, Inc.
 00 20 FA Gde Systems, Inc.
@@ -8441,7 +8441,7 @@
 00 21 1B Cisco Systems
 00 21 1C Cisco Systems
 00 21 1D Dataline Ab
-00 21 1E Motorola Chs
+00 21 1E Motorola Mobility, Inc.
 00 21 1F Shinsung Deltatech Co.,ltd.
 00 21 20 Sequel Technologies
 00 21 21 Vrmagic Gmbh
@@ -8478,7 +8478,7 @@
 00 21 40 En Technologies Inc.
 00 21 41 Radlive
 00 21 42 Advanced Control Systems Doo
-00 21 43 Motorola Chs
+00 21 43 Motorola Mobility, Inc.
 00 21 44 Ss Telecoms
 00 21 45 Semptian Technologies Ltd.
 00 21 46 Sci Technology
@@ -8539,7 +8539,7 @@
 00 21 7D Pyxis S.r.l.
 00 21 7E Telit Communication S.p.a
 00 21 7F Intraco Technology Pte Ltd
-00 21 80 Motorola Chs
+00 21 80 Motorola Mobility, Inc.
 00 21 81 Si2 Microsystems Limited
 00 21 82 Sandlinks Systems, Ltd.
 00 21 83 Vatech Hydro
@@ -12983,6 +12983,7 @@
 1C BD B9 D-link International Pte Limited
 1C C1 DE Hewlett Packard
 1C DF 0F Cisco Systems
+1C E2 CC Texas Instruments
 1C F0 61 Scaps Gmbh
 1C F5 E7 Turtle Industry Co., Ltd.
 1C FE A7 Identytech Solutins Ltd.
@@ -13264,6 +13265,7 @@
 44 A8 C2 Sewoo Tech Co., Ltd
 44 AA 27 Udworks Co., Ltd.
 44 AA E8 Nanotec Electronic Gmbh & Co. Kg
+44 C1 5C Texas Instruments
 44 C2 33 Guangzhou Comet Technology Development Co.ltd
 44 C9 A2 Greenwald Industries
 44 D2 CA Anvia Tv Oy
@@ -13292,6 +13294,7 @@
 48 D8 FE Claridy Solutions, Inc.
 48 DF 1C Wuhan Nec Fibre Optic Communications Industry Co. Ltd
 48 EB 30  Eterna Technology, Inc.
+48 F4 7D Techvision Holding  Internation Limited
 48 F8 E1 Alcatel Lucent Wt
 48 FC B8 Woodstream Corporation
 4C 02 2E Cmr Korea Co., Ltd
@@ -13487,6 +13490,7 @@
 64 9B 24 V Technology Co., Ltd.
 64 9C 8E Texas Instruments
 64 A2 32 Ooo Samlight
+64 A7 69 Htc Corporation
 64 A8 37 Juni Korea Co., Ltd
 64 B6 4A Vivotech, Inc.
 64 B9 E8 Apple, Inc
@@ -13569,6 +13573,7 @@
 6C FD B9 Proware Technologies Co Ltd.
 6C FF BE Mpb Communications Inc.
 70 02 58 01db-metravib
+70 14 04 Limited Liability Company &quot;research Center &quot;bresler&quot;
 70 1A 04 Liteon Tech Corp.
 70 1A ED Advas Co., Ltd.
 70 2B 1D E-domus International Limited
@@ -13724,6 +13729,7 @@
 80 17 7D Nortel Networks
 80 1F 02 Edimax Technology Co. Ltd.
 80 22 75 Beijing Beny Wave Technology Co Ltd
+80 2D E1 Solarbridge Technologies
 80 34 57 Ot Systems Limited
 80 38 FD Leapfrog Enterprises, Inc.
 80 39 E5 Patlite Corporation
@@ -14082,6 +14088,7 @@ B0 90 74 Fulan Electronics Limited
 B0 91 34 Taleo
 B0 97 3A E-fuel Corporation
 B0 9A E2 Stemmer Imaging Gmbh
+B0 A1 0A Pivotal Systems Corporation
 B0 A7 2A Ensemble Designs, Inc.
 B0 AA 36 Guangdong Oppo Mobile Telecommunications Corp.,ltd.
 B0 B3 2B Slican Sp. Z O.o.
@@ -14292,6 +14299,7 @@ CC 52 AF Universal Global Scientific Industrial Co., Ltd.
 CC 54 59 Ontime Networks As
 CC 55 AD Rim
 CC 5C 75 Weightech Com. Imp. Exp. Equip. Pesagem Ltda
+CC 5D 4E Zyxel Communications Corporation
 CC 69 B0 Global Traffic Technologies, Llc
 CC 6B 98 Minetec Wireless Technologies
 CC 76 69 Seetech
@@ -14310,6 +14318,7 @@ CC D8 11 Aiconn Technology Corporation
 CC EA 1C Dconworks  Co., Ltd
 CC F3 A5 Chi Mei Communication Systems, Inc
 CC F6 7A Ayecka Communication Systems Ltd
+CC F8 41 Lumewave
 CC FC 6D Riz Transmitters
 CC FC B1 Wireless Technology, Inc.
 D0 15 4A Zte Corporation
@@ -14332,6 +14341,7 @@ D0 D3 FC Mios, Ltd.
 D0 E3 47 Yoga
 D0 E4 0B Wearable Inc.
 D0 E5 4D Pace Plc
+D0 EB 9E Seowoo Inc.
 D0 F0 DB Ericsson
 D4 00 0D Phoenix Broadband Technologies, Llc.
 D4 11 D6 Shotspotter, Inc.
@@ -14421,6 +14431,7 @@ DC A7 D9 Compressor Controls Corp
 DC A9 71 Intel Corporate
 DC CB A8 Explora Technologies Inc
 DC D0 F7 Bentek Systems Ltd.
+DC D3 21 Humax Co.,tld
 DC D8 7F Shenzhen Joincyber Telecom Equipment Ltd
 DC DE CA Akyllor
 DC E2 AC Lumens Digital Optics Inc.
@@ -14577,6 +14588,7 @@ F0 68 53 Integrated Corporation
 F0 77 D0 Xcellen
 F0 7B CB Hon Hai Precision Ind. Co.,ltd. 
 F0 7D 68 D-link Corporation
+F0 81 AF Irz Automation Technologies Ltd
 F0 93 3A Nxtconect
 F0 9C BB Raonthink Inc.
 F0 A7 64 Gst Co., Ltd.
