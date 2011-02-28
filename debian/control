@@ -9,7 +9,7 @@ Vcs-Git: git://git.debian.org/git/collab-maint/macchanger.git
 Vcs-Browser: http://git.debian.org/?p=collab-maint/macchanger.git
 
 Package: macchanger
-Architecture: any
+Architecture: linux-any
 Depends: ${shlibs:Depends}
  , ${misc:Depends}
  , dpkg (>= 1.15.4) | install-info
