@@ -3,8 +3,9 @@ macchanger (1.5.0-8) UNRELEASED; urgency=low
   * Apply patches from Anders Sundman, posted by private mail:
     - updated OUI list (06-update_OUI_list.patch)
     - reset to permanent MAC option (07-implement_reset_to_permanent_MAC.patch)
+    - fix random MAC choice (08-fix_random_MAC_choice.patch)
 
- -- David Paleino <dapal@debian.org>  Mon, 28 Feb 2011 21:52:20 +0100
+ -- David Paleino <dapal@debian.org>  Mon, 28 Feb 2011 21:52:54 +0100
 
 macchanger (1.5.0-7) unstable; urgency=low
 

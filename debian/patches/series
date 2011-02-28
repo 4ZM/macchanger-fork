@@ -5,3 +5,4 @@
 05-fix_spelling_error.patch
 06-update_OUI_list.patch
 07-implement_reset_to_permanent_MAC.patch
+08-fix_random_MAC_choice.patch
