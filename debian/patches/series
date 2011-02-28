@@ -4,3 +4,4 @@
 04-fix_exit_code.patch
 05-fix_spelling_error.patch
 06-update_OUI_list.patch
+07-implement_reset_to_permanent_MAC.patch
