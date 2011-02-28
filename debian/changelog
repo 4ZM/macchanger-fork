@@ -1,3 +1,10 @@
+macchanger (1.5.0-8) UNRELEASED; urgency=low
+
+  * Apply patches from Anders Sundman, posted by private mail:
+    - updated OUI list (06-update_OUI_list.patch)
+
+ -- David Paleino <dapal@debian.org>  Mon, 28 Feb 2011 21:41:01 +0100
+
 macchanger (1.5.0-7) unstable; urgency=low
 
   * debian/control:
