@@ -3,6 +3,7 @@ Section: net
 Priority: extra
 Maintainer: David Paleino <dapal@debian.org>
 Build-Depends: debhelper (>= 7.0.50~)
+ , texinfo
 Standards-Version: 3.9.1
 Homepage: http://www.alobbs.com/macchanger
 Vcs-Git: git://git.debian.org/git/collab-maint/macchanger.git
