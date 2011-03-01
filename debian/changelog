@@ -6,8 +6,9 @@ macchanger (1.5.0-8) UNRELEASED; urgency=low
     - fix random MAC choice (08-fix_random_MAC_choice.patch)
   * Use 'linux-any' as Architecture
   * Add texinfo Build-Depends to rebuild the info file
+  * Clean generated files
 
- -- David Paleino <dapal@debian.org>  Tue, 01 Mar 2011 09:32:03 +0100
+ -- David Paleino <dapal@debian.org>  Tue, 01 Mar 2011 09:32:51 +0100
 
 macchanger (1.5.0-7) unstable; urgency=low
 
