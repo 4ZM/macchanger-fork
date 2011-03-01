@@ -7,10 +7,10 @@ Forwarded: no
 ---
  doc/macchanger.texi |    7 +++++++
  macchanger.1        |    3 +++
- src/main.c          |   18 +++++++++++++++---
+ src/main.c          |   25 ++++++++++++++++++-------
  src/netinfo.c       |   31 +++++++++++++++++++++++++++++++
  src/netinfo.h       |    1 +
- 5 files changed, 57 insertions(+), 3 deletions(-)
+ 5 files changed, 60 insertions(+), 7 deletions(-)
 
 --- macchanger.orig/src/main.c
 +++ macchanger/src/main.c
@@ -87,17 +87,27 @@ Forwarded: no
  	} else {
  		mc_mac_next (mac_faked);
  	}
-@@ -221,7 +232,7 @@ main (int argc, char *argv[])
+@@ -221,21 +232,21 @@ main (int argc, char *argv[])
  		mac_faked = mc_net_info_get_mac(net);
  
  		/* Print it */
 -		print_mac ("Faked MAC:   ", mac_faked);
+-		
 +		print_mac ("New       MAC: ", mac_faked);
- 		
++
  		/* Is the same MAC? */
  		if (mc_mac_equal (mac, mac_faked)) {
-@@ -236,6 +247,7 @@ main (int argc, char *argv[])
- 	
+ 			printf ("It's the same MAC!!\n");
+ 		}
+ 
+ 		ret = 0;
+-	}
+-	else {
++	} else {
+ 		ret = 1;
+ 	}
+-	
++
  	/* Memory free */
  	mc_mac_free (mac);
 +	mc_mac_free (mac_permanent);

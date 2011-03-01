@@ -9,8 +9,8 @@ Subject: ensure random new MAC is not same as old MAC
 
 ---
  src/mac.c  |   43 +++++++++++++++++++++++++++++--------------
- src/main.c |   23 ++++++++++++-----------
- 2 files changed, 41 insertions(+), 25 deletions(-)
+ src/main.c |   28 ++++++++++++++--------------
+ 2 files changed, 43 insertions(+), 28 deletions(-)
 
 --- macchanger.orig/src/mac.c
 +++ macchanger/src/mac.c
@@ -73,7 +73,7 @@ Subject: ensure random new MAC is not same as old MAC
  
 --- macchanger.orig/src/main.c
 +++ macchanger/src/main.c
-@@ -225,18 +225,19 @@ main (int argc, char *argv[])
+@@ -225,23 +225,23 @@ main (int argc, char *argv[])
  		mc_mac_next (mac_faked);
  	}
  
@@ -84,23 +84,30 @@ Subject: ensure random new MAC is not same as old MAC
 -		mac_faked = mc_net_info_get_mac(net);
 +	/* Is the same MAC? */
 +	if (mc_mac_equal (mac, mac_faked)) {
-+		printf ("MAC was not changed since requested MAC was same as current!\n");
-+	}
-+	else {
++		printf ("It's the same MAC!!\n");
+ 
+-		/* Print it */
+-		print_mac ("New       MAC: ", mac_faked);
++		ret = 1;
++	} else {
 +		/* Set the new MAC */
 +		if (mc_net_info_set_mac (net, mac_faked) >= 0) {
 +			/* Re-read the MAC */
 +			mc_mac_free (mac_faked);
 +			mac_faked = mc_net_info_get_mac(net);
  
--		/* Print it */
--		print_mac ("New       MAC: ", mac_faked);
--		
 -		/* Is the same MAC? */
 -		if (mc_mac_equal (mac, mac_faked)) {
 -			printf ("It's the same MAC!!\n");
+-		}
 +			/* Print it */
 +			print_mac ("New       MAC: ", mac_faked);
- 		}
  
- 		ret = 0;
+-		ret = 0;
+-	} else {
+-		ret = 1;
++			ret = 0;
++		}
+ 	}
+ 
+ 	/* Memory free */
