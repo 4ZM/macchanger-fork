@@ -1,4 +1,4 @@
-macchanger (1.5.0-8) UNRELEASED; urgency=low
+macchanger (1.5.0-8) unstable; urgency=low
 
   * Apply patches from Anders Sundman, posted by private mail:
     - updated OUI list (06-update_OUI_list.patch)
@@ -8,7 +8,7 @@ macchanger (1.5.0-8) UNRELEASED; urgency=low
   * Add texinfo Build-Depends to rebuild the info file
   * Clean generated files
 
- -- David Paleino <dapal@debian.org>  Tue, 01 Mar 2011 09:32:51 +0100
+ -- David Paleino <dapal@debian.org>  Tue, 01 Mar 2011 09:33:08 +0100
 
 macchanger (1.5.0-7) unstable; urgency=low
 
