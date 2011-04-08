@@ -15,7 +15,7 @@ Forwarded: no
 --- macchanger.orig/src/main.c
 +++ macchanger/src/main.c
 @@ -50,6 +50,7 @@ print_help (void)
- 		"  -e,  --endding                Don't change the vendor bytes\n"
+ 		"  -e,  --ending                Don't change the vendor bytes\n"
  		"  -a,  --another                Set random vendor MAC of the same kind\n"
  		"  -A                            Set random vendor MAC of any kind\n"
 +		"  -p,  --permanent              Reset to original, permanent hardware MAC\n"

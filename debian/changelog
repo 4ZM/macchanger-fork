@@ -1,3 +1,10 @@
+macchanger (1.5.0-9) UNRELEASED; urgency=low
+
+  * Fix spelling error: endding → ending (05-fix_spelling_error.patch)
+    (Closes: #621698)
+
+ -- David Paleino <dapal@debian.org>  Fri, 08 Apr 2011 10:22:52 +0200
+
 macchanger (1.5.0-8) unstable; urgency=low
 
   * Apply patches from Anders Sundman, posted by private mail:
