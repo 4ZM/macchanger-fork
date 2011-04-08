@@ -1,0 +1,17 @@
+---
+ src/main.c |    4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+--- macchanger.orig/src/main.c
++++ macchanger/src/main.c
+@@ -222,7 +222,9 @@ main (int argc, char *argv[])
+ 	} else if (permanent) {
+ 		mac_faked = mc_mac_dup (mac_permanent);
+ 	} else {
+-		mc_mac_next (mac_faked);
++		/* mc_mac_next (mac_faked); */
++		/* let's make it the same as 'show' */
++		exit(0);
+ 	}
+ 
+ 	/* Is the same MAC? */
