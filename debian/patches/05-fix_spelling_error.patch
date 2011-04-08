@@ -3,12 +3,11 @@ Subject: fix spelling error
 Forwarded: no
 
 ---
- doc/macchanger.info |    2 +-
  doc/macchanger.texi |    4 ++--
  macchanger.1        |    2 +-
  src/mac.c           |    2 +-
  src/main.c          |    4 ++--
- 5 files changed, 7 insertions(+), 7 deletions(-)
+ 4 files changed, 6 insertions(+), 6 deletions(-)
 
 --- macchanger.orig/src/mac.c
 +++ macchanger/src/mac.c
@@ -21,17 +20,6 @@ Forwarded: no
  		return -1;
  	}
  	
---- macchanger.orig/doc/macchanger.info
-+++ macchanger/doc/macchanger.info
-@@ -91,7 +91,7 @@ The program accepts the following option
-      Print the current MAC address and exit.
- 
- `-e'
--`--endding'
-+`--ending'
-      Change the MAC address setting the same hardware vendor as the
-      current.
- 
 --- macchanger.orig/doc/macchanger.texi
 +++ macchanger/doc/macchanger.texi
 @@ -114,8 +114,8 @@ Print the current MAC address and exit.
