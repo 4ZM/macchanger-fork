@@ -1,3 +1,9 @@
+From: David Paleino <dapal@debian.org>
+Subject: change default behaviour when no options are given
+Origin: vendor
+Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=621494
+Forwarded: no
+
 ---
  src/main.c |    4 +++-
  1 file changed, 3 insertions(+), 1 deletion(-)
