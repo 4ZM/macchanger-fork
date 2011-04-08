@@ -10,4 +10,4 @@ export LDFLAGS=-Wl,-z,defs,--as-needed
 
 override_dh_auto_install:
 	dh_auto_install
-	find $(CURDIR) -name "dir.gz" -delete
+	find $(CURDIR)/debian/macchanger -name "dir" -delete

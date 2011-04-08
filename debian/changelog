@@ -5,8 +5,9 @@ macchanger (1.5.0-9) UNRELEASED; urgency=low
   * Change default behaviour to be "show" (09-change_default_behaviour.patch)
     (Closes: #621494)
   * Standards-Version bump to 3.9.2, no changes needed
+  * Fix removal of info-dir file in debian/rules
 
- -- David Paleino <dapal@debian.org>  Fri, 08 Apr 2011 10:36:57 +0200
+ -- David Paleino <dapal@debian.org>  Fri, 08 Apr 2011 10:45:14 +0200
 
 macchanger (1.5.0-8) unstable; urgency=low
 
