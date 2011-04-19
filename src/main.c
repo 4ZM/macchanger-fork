@@ -31,6 +31,7 @@
 #include <stdio.h>
 #include <getopt.h>
 #include <stdlib.h>
+#include <sys/time.h>
 
 #include "mac.h"
 #include "maclist.h"
@@ -180,8 +181,10 @@ main (int argc, char *argv[])
 	}
 	device_name = argv[optind];
 	
-	
-	srandom(time(NULL));
+	/* Seed the pseudo-random sequence */
+	struct timeval t1;
+	gettimeofday(&t1, NULL);
+	srandom(t1.tv_usec * t1.tv_sec);
 
         /* Read the MAC */
 	if ((net = mc_net_info_new(device_name)) == NULL) exit(1);
