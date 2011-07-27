@@ -3,8 +3,11 @@ Subject: fix spelling error
 Forwarded: no
 
 ---
- src/mac.c |    2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ doc/macchanger.texi |    4 ++--
+ macchanger.1        |    2 +-
+ src/mac.c           |    2 +-
+ src/main.c          |    4 ++--
+ 4 files changed, 6 insertions(+), 6 deletions(-)
 
 --- macchanger.orig/src/mac.c
 +++ macchanger/src/mac.c
@@ -17,3 +20,47 @@ Forwarded: no
  		return -1;
  	}
  	
+--- macchanger.orig/doc/macchanger.texi
++++ macchanger/doc/macchanger.texi
+@@ -114,8 +114,8 @@ Print the current MAC address and exit.
+ 
+ @item -e
+ @cindex @code{-e}
+-@itemx --endding
+-@cindex @code{--endding}
++@itemx --ending
++@cindex @code{--ending}
+ Change the MAC address setting the same hardware vendor as the current.
+ 
+ @item -a
+--- macchanger.orig/macchanger.1
++++ macchanger/macchanger.1
+@@ -45,7 +45,7 @@ Show summary of options.
+ .B \-V, \-\-version
+ Show version of program.
+ .TP
+-.B \-e, \-\-endding
++.B \-e, \-\-ending
+ Don't change the vendor bytes.
+ .TP
+ .B \-a, \-\-another
+--- macchanger.orig/src/main.c
++++ macchanger/src/main.c
+@@ -47,7 +47,7 @@ print_help (void)
+ 		"  -h,  --help                   Print this help\n"
+ 		"  -V,  --version                Print version and exit\n"
+ 		"  -s,  --show                   Print the MAC address and exit\n"
+-		"  -e,  --endding                Don't change the vendor bytes\n"
++		"  -e,  --ending                Don't change the vendor bytes\n"
+ 		"  -a,  --another                Set random vendor MAC of the same kind\n"
+ 		"  -A                            Set random vendor MAC of any kind\n"
+ 		"  -r,  --random                 Set fully random MAC\n"
+@@ -99,7 +99,7 @@ main (int argc, char *argv[])
+ 		{"help",        no_argument,       NULL, 'h'},
+ 		{"version",     no_argument,       NULL, 'V'},
+ 		{"random",      no_argument,       NULL, 'r'},
+-		{"endding",     no_argument,       NULL, 'e'},
++		{"ending",      no_argument,       NULL, 'e'},
+ 		{"another",     no_argument,       NULL, 'a'},
+ 		{"show",        no_argument,       NULL, 's'},
+ 		{"another_any", no_argument,       NULL, 'A'},
